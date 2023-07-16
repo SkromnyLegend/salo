@@ -1,0 +1,55 @@
+@media screen and (max-width:1200px) {
+    .navi2{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .icon2 i{
+        display: none;
+
+        
+    }
+    
+    
+    
+}
+@media screen and (max-width:650px) {
+    .svg{
+        width: auto;
+        margin: auto;
+        margin-left: 50px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .navi{
+        width: auto;
+        
+    }
+    .svg{
+        width: auto;
+        margin-left:50px; 
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .navi input{
+        display: none;
+    }
+    .icon2 i{
+        display: block;
+        margin-left: 20px;
+    
+
+    }
+    
+    
+    
+}
+
+
+
+    
+
