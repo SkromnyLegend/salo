@@ -12,11 +12,18 @@
     
 }
 @media screen and (max-width:990px) {
-
+.card{
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
 }
 @media screen and (max-width:800px) {
     .banner svg{
         width: 70%;
+    }
+    .card{
+        width: 94%;
     }
 }
 @media screen and (max-width:500px) {
@@ -31,12 +38,19 @@
     .banner svg{
         width: 80%;
     }
+    .icon2{
+        margin: auto;
+    }
     .navi input{
         display: none;
     }
     .icon{
-        margin-left: 20px;
+       display: none;
     }
+.hambirger{
+    margin-top: 40px;
+}
+    
 }
 
 
