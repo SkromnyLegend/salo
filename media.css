@@ -39,6 +39,9 @@
     .banner svg{
         width: 80%;
     }
+    .navi img{
+        margin-top: 34px;
+    }
     .icon2{
         margin: auto;
     }
@@ -51,9 +54,14 @@
 .hambirger{
     margin-top: 40px;
 }
-    .cola{
-        display: none;
+    
+    .error{
+        display: block;
     }
+    .cola button{
+        margin-left: 30%;
+    }
+
 }
 
 
