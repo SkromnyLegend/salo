@@ -2,54 +2,41 @@
     .navi2{
         display: none;
     }
+    .hambirger{
+        display: block;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    
+    
     
 }
+@media screen and (max-width:990px) {
 
-@media screen and (max-width:900px) {
-    .icon2 i{
-        display: none;
-
-        
-    }
-    
-    
-    
 }
-@media screen and (max-width:650px) {
-    .svg{
-        width: auto;
-        margin: auto;
-        margin-left: 50px;
+@media screen and (max-width:800px) {
+    .banner svg{
+        width: 70%;
     }
-    
-}
-@media screen and (max-width:550px) {
-    .navi{
-        width: auto;
-        
-    }
-    .svg{
-        width: auto;
-        margin-left:50px; 
-    }
-    
 }
 @media screen and (max-width:500px) {
+    .banner svg{
+        width: 80%;
+    }
+}
+@media screen and (max-width:400px) {
+    .navi h1{
+        display:none;
+    }
+    .banner svg{
+        width: 80%;
+    }
     .navi input{
         display: none;
     }
-    .icon2 i{
-        display: block;
+    .icon{
         margin-left: 20px;
-    
-
     }
-    
-    
-    
 }
 
-
-
-    
 

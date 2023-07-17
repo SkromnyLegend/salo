@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: sans-serif;
 }
 body{
     max-width: 1900px;
     margin: auto;
+    min-height: 500vh;
 }
 .navi{
     width: 100%;
     height: 80px;
+    margin: auto;
     border: solid 1px rgb(218,220,223);
     display: flex;
     position: sticky;
@@ -40,7 +42,6 @@ body{
 .icon i{
     font-size: 20px;
     margin-top: 20px;
- border: solid 1px red;
  height: 35px;
  width: 40px;
 padding-top: 6px;
@@ -56,7 +57,7 @@ background: rgb(255,31,44);
 }
 .navi2{
     width: 100%;
-    height: 30px;
+    height: 10px;
     background-color: rgba(255, 255, 255, 0.306);
     position: sticky;
 }
@@ -69,31 +70,14 @@ background: rgb(255,31,44);
     color: rgb(47,51,55);
     list-style: none;
     gap: 30px;
+    position: sticky;
     border: solid 1px rgb(218,220,223) ;
     
 }
 .prw{
     color: red;
 }
-.banner{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-   
-   
-  
-    background: url(./.jpg)no-repeat center/cover;
-    object-fit: cover;
-}
-.svg{
-    margin-top: 10px;
-    background: url(./07122023-MOPS-01-1400x550_DesktopA1_Redesign-min.jpg)no-repeat center/cover;
-    width: 98%;
-    margin-left: 1%;
-   
-  
-    
-}
+
 .hambirger{
     display: none;
 }
@@ -104,62 +88,13 @@ background: rgb(255,31,44);
     margin-top: 3px;
     border-radius: 4px;
 }
-.banner2{
-    display: flex;
-    width: auto;
-    height: auto;
-    
-    margin-top: 150px;
-    
-}
-.card{
-    width: 300px;
-    height: 300px;
-}
-.card img{
-    width: 90%;
-    height: 70%;
-    margin: auto;
-    margin-left: 10px;
- }
- .jpg1{
-    color: red;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 10px;
-
- }
- .lola h1{
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 20px;
- }
- .jpg2{
-    font-size: 20px;
-    margin-left: 40px;
-    font-weight: 800;
- }
- .banner3{
-   
- }
-
- .cart{
-    width: 40%;
-    height: 30%;
-  
-    margin-top: 100px;
-     
- }
- .cart img{
+.banner{
     width: 100%;
-    
- }
- .bnr{
-    width: 100%;
-    height: auto;
-    display: flex;
- }
-
- 
+    margin-top: 30px;
+    height: 500px;
+    border: solid 1px red;
+    background: url(./07122023-MOPS-01-1400x550_DesktopA1_Redesign-min.jpg)no-repeat center/cover;
+}
+.banner svg{
+    width: 70%;
+}
