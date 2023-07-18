@@ -27,6 +27,35 @@
     grid-gap: 10px;
     grid-template-columns: repeat(3, 1fr);
 }
+.footer2{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-row: ;
+    background: rgb(47,51,55);
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.f2p{
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.fvavi{
+    display: flex;
+    gap: 20px;
+    margin-left: 300px;
+}
+.ul{
+    color: #fff;
+    display: none;
+}
+.ull img{
+    width: 100px;
+    height: 50px;
+    
+}
 }
 @media screen and (max-width:800px) {
     .banner svg{
@@ -35,6 +64,101 @@
     .card{
         width: 94%;
     }
+    .rasm{
+        width: 100%;
+        height: auto;
+      margin: auto;
+      display: grid;
+      grid-row: ;
+      margin: auto;
+    }
+    .rasm svg{
+        margin-left: 250px;
+        margin-top: px;
+    }
+    .rasm input{
+        margin-left:200px;
+
+    }
+    .kola{
+        margin-left: 230px;
+    }
+    .rasm pre{
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        background: rgb(84,86,88);
+        display: none;
+        
+       }
+       .foot{
+        width: 25%;
+        padding-top: 50px;
+        padding-left: 100px;
+        
+    }
+    .footer2{
+        width: 100%;
+        height: 100px;
+        display: grid;
+        grid-row: ;
+        background: rgb(47,51,55);
+        padding-top: 10px;
+        padding-left: px;
+    }
+    .f2p{
+        color: #fff;
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .fvavi{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+    }
+    .ul{
+        color: #fff;
+        display: none;
+    }
+    .ull img{
+        width: 100px;
+        height: 50px;
+        margin-right: x;
+        
+    }
+    .popao{
+        color: rgb(244,255,255);
+       margin-top: 30px;
+        font-size: 13px;
+
+
+    }
+    .sfk{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        background: rgb(47,51,55);
+        display: block;
+        display: flex;
+        
+    }
+    .skrf{
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 13px;
+        border-bottom:2px red ;
+        display: block;
+    }
+    .li{
+        margin-top: px;
+    }
+
 }
 @media screen and (max-width:500px) {
     .banner svg{
@@ -56,6 +180,19 @@
     .navi h1{
         display:none;
     }
+    .rasm pre{
+        display: none;
+    }
+    
+    .rasm{
+        width: 100%;
+        height: 50px;
+        display: none;
+    }
+    .rams input{
+        display: none;
+        opacity: 0;
+    }
     .banner svg{
         width: 80%;
     }
@@ -64,6 +201,30 @@
     }
     .icon2{
         margin: auto;
+    }
+    .rasm{
+        width: 100%;
+        height: auto;
+      margin: auto;
+      display: grid;
+      grid-row: ;
+      margin: auto;
+      margin-top:20px ;
+      padding-top: 20px;
+    }
+    .rasm svg{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    .rasm input{
+        margin-left:130px;
+
+    }
+    .kola{
+        margin-left: 160px;
+    }
+    .rasm pre{
+        text-align: center;
     }
     .navi input{
         display: none;
@@ -79,6 +240,9 @@
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .btn{
+        margin-left: 30%;
     }
 .hambirger{
     margin-top: 40px;
