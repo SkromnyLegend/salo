@@ -18,6 +18,15 @@
     gap: 20px;
     
 }
+.banner20{
+    width: 96%;
+    height: 300px;
+    margin-top: 20px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 @media screen and (max-width:800px) {
     .banner svg{
@@ -31,7 +40,18 @@
     .banner svg{
         width: 80%;
     }
+    .banner20{
+        width: 96%;
+        height: 300px;
+        margin-top: 20px;
+        margin: auto;
+        display: grid;
+        grid-gap: 10px;
+        font-size: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 @media screen and (max-width:400px) {
     .navi h1{
         display:none;
@@ -50,6 +70,15 @@
     }
     .icon{
        display: none;
+    }
+    .banner20{
+        width: 96%;
+        height: 300px;
+        margin-top: 20px;
+        margin: auto;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 .hambirger{
     margin-top: 40px;
