@@ -254,6 +254,36 @@
     .cola button{
         margin-left: 30%;
     }
+    .footer2{
+        width: 100%;
+        height: 100px;
+        display: grid;
+        grid-row: ;
+        background: rgb(47,51,55);
+        padding-top: 10px;
+        padding-left: px;
+    }
+    .f2p{
+        color: #fff;
+        font-size: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    .fvavi{
+        display: flex;
+        gap: 20px;
+        margin-left: 100px;
+    }
+    .ul{
+        color: #fff;
+        display: none;
+    }
+    .ull img{
+        width: 70px;
+        height: 50px;
+        
+        
+    }
 
 }
 
